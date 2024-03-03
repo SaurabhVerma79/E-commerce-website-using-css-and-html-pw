@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 35px;
+    margin-left: 30px;
+}  
+
+
+/* logo */
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.logo img{
+    width: 150px;
+    padding-left: 35px;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 300px;
+   
+}
+.navbar a:hover{
+    color: #5955b3;
+
+    }
+.navbar li{
+    list-style: none;
+  
+
+}
+.navbar li a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+/* button */
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5955b3;
+    height: 30px;
+    width: 70px;
+    border-radius: 7px;
+    margin-right: 50px;
+  
+  
+}
+.button a{
+    
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+  
+    
+}
+
+/* section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .left-section{
+    display: flex;
+
+} */
+.left-section h1{
+    font-size: 35px;
+    padding-left: 25px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.left-section p{
+    font-size: 10px;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+.color{
+    color: #5955b3;
+}
+.right-section{
+    display: flex;
+}
+.right-section img{
+    /* height: 300px; */
+    width: 500px;
+    margin-right: 25px;
+}
+.left-section button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5955b3;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    margin-top: 25px;
+    /* padding-left: 25px; */
+    margin-left: 25px;
+  
+}
+.left-section a{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+}
